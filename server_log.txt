@@ -1,0 +1,2382 @@
+b75e42be8ed212a0: Receiving 1252 bytes from 127.0.0.1:43905 at T=0.000000 (1ade35a75)
+b75e42be8ed212a0: Receiving packet type: 2 (initial), S0, Q1, Version 1,
+b75e42be8ed212a0:     <b75e42be8ed212a0>, <980d440e44d62a34>, Seq: 68193, pl: 1226
+b75e42be8ed212a0:     Token length: 0
+b75e42be8ed212a0:     Decrypted 1206 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 362: 010001660303b9bc...
+b75e42be8ed212a0:     padding, 839 bytes
+
+b75e42be8ed212a0: Received ALPN list (16): h3, hq-interop, h3-34, hq-34, h3-33, hq-33, h3-32, hq-32, h3-31, hq-31, h3-29, hq-29, h3-30, hq-30, h3-28, hq-28
+b75e42be8ed212a0: Received transport parameter TLS extension (79 bytes):
+b75e42be8ed212a0:     Extension list (79 bytes):
+b75e42be8ed212a0:         Extension type: 5 (max_stream_data_bidi_local), length 4, 80200000
+b75e42be8ed212a0:         Extension type: 4 (initial_max_data), length 4, 80100000
+b75e42be8ed212a0:         Extension type: 8 (max_streams_bidi), length 2, 4200
+b75e42be8ed212a0:         Extension type: 3 (max_packet_size), length 2, 45a0
+b75e42be8ed212a0:         Extension type: 9 (max_streams_uni), length 2, 4200
+b75e42be8ed212a0:         Extension type: 6 (max_stream_data_bidi_remote), length 4, 80010063
+b75e42be8ed212a0:         Extension type: 7 (max_stream_data_uni), length 4, 8000ffff
+b75e42be8ed212a0:         Extension type: 14 (active_connection_id_limit), length 1, 08
+b75e42be8ed212a0:         Extension type: 11 (max_ack_delay), length 1, 0a
+b75e42be8ed212a0:         Extension type: 15 (hcid), length 8, 980d440e44d62a34
+b75e42be8ed212a0:         Extension type: 5731 (unknown), length 4, 80005e42
+b75e42be8ed212a0:         Extension type: 4278509083 (min_ack_delay), length 2, 43e8
+b75e42be8ed212a0:         Extension type: 29016 (enable_time_stamp), length 1, 03
+b75e42be8ed212a0:         Extension type: 10930 (grease_quic_bit), length 0
+b75e42be8ed212a0: Sending transport parameter TLS extension (100 bytes):
+b75e42be8ed212a0:     Extension list (100 bytes):
+b75e42be8ed212a0:         Extension type: 5 (max_stream_data_bidi_local), length 4, 80200000
+b75e42be8ed212a0:         Extension type: 4 (initial_max_data), length 4, 80100000
+b75e42be8ed212a0:         Extension type: 8 (max_streams_bidi), length 2, 4200
+b75e42be8ed212a0:         Extension type: 3 (max_packet_size), length 2, 45a0
+b75e42be8ed212a0:         Extension type: 9 (max_streams_uni), length 2, 4200
+b75e42be8ed212a0:         Extension type: 6 (max_stream_data_bidi_remote), length 4, 80010063
+b75e42be8ed212a0:         Extension type: 7 (max_stream_data_uni), length 4, 8000ffff
+b75e42be8ed212a0:         Extension type: 14 (active_connection_id_limit), length 1, 08
+b75e42be8ed212a0:         Extension type: 11 (max_ack_delay), length 1, 0a
+b75e42be8ed212a0:         Extension type: 15 (hcid), length 8, e634987c81ee3109
+b75e42be8ed212a0:         Extension type: 0 (ocid), length 8, b75e42be8ed212a0
+b75e42be8ed212a0:         Extension type: 2 (stateless_reset_token), length 16, a109b2936c850024db5ec8d99fbd7f8c
+b75e42be8ed212a0:         Extension type: 4278509083 (min_ack_delay), length 2, 43e8
+b75e42be8ed212a0:         Extension type: 29016 (enable_time_stamp), length 1, 03
+b75e42be8ed212a0:         Extension type: 10930 (grease_quic_bit), length 0
+b75e42be8ed212a0: Sending packet type: 2 (initial), S0, Q0, Version 1,
+b75e42be8ed212a0:     <980d440e44d62a34>, <e634987c81ee3109>, Seq: 110188, pl: 159
+b75e42be8ed212a0:     Token length: 0
+b75e42be8ed212a0:     Prepared 139 bytes
+b75e42be8ed212a0:     ack_ecn (nb=0), 68193, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     crypto_hs, offset 0, length 123: 0200007703031868...
+
+b75e42be8ed212a0: Sending packet type: 4 (handshake), S0, Q0, Version 1,
+b75e42be8ed212a0:     <980d440e44d62a34>, <e634987c81ee3109>, Seq: 0, pl: 1042
+b75e42be8ed212a0:     Prepared 1022 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 1018: 0800007300710010...
+
+b75e42be8ed212a0: Sending 1252 bytes to 127.0.0.1:43905 at T=0.000739 (1ade35d58)
+b75e42be8ed212a0: Sending packet type: 4 (handshake), S0, Q0, Version 1,
+b75e42be8ed212a0:     <980d440e44d62a34>, <e634987c81ee3109>, Seq: 1, pl: 254
+b75e42be8ed212a0:     Prepared 234 bytes
+b75e42be8ed212a0:     crypto_hs, offset 1018, length 229: 8c2a5542108ae0a7...
+
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S0, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 0 (0), Phi: 0,
+b75e42be8ed212a0:     Prepared 413 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 23 bytes
+
+b75e42be8ed212a0: T= 0.000739, cwin: 15360,flight: 1970,nb_ret: 0,rtt_min: 0,rtt: 250000,rtt_var: 0,max_ack_delay: 0,state: 11
+b75e42be8ed212a0: Sending 718 bytes to 127.0.0.1:43905 at T=0.000739 (1ade35d58)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S0, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 1 (1), Phi: 0,
+b75e42be8ed212a0:     Prepared 1414 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1413 bytes
+
+b75e42be8ed212a0: T= 0.000739, cwin: 15360,flight: 3410,nb_ret: 0,rtt_min: 0,rtt: 250000,rtt_var: 0,max_ack_delay: 0,state: 11
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.000739 (1ade35d58)
+b75e42be8ed212a0: Receiving 404 bytes from 127.0.0.1:43905 at T=0.001022 (1ade35e73)
+b75e42be8ed212a0: Receiving packet type: 4 (handshake), S0, Q0, Version 1,
+b75e42be8ed212a0:     <e634987c81ee3109>, <980d440e44d62a34>, Seq: 0, pl: 68
+b75e42be8ed212a0:     Decrypted 48 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     ack_ecn (nb=0), 0-1, ect0=0, ect1=2, ce=0
+b75e42be8ed212a0:     crypto_hs, offset 0, length 36: 1400002051a7160a...
+
+b75e42be8ed212a0: Receiving packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <e634987c81ee3109>, Seq: 0 (0), Phi: 0,
+b75e42be8ed212a0:     Decrypted 285 bytes
+b75e42be8ed212a0:     retire_connection_id[1]: 0xcacdfd40b47ad4ca, f210cb6f4cc20a8d437e34218c7e6abc
+b75e42be8ed212a0:     retire_connection_id[2]: 0x846af86846c22f5c, 8b9f436887d0edc6151eda87b6f16110
+b75e42be8ed212a0:     retire_connection_id[3]: 0x5e8f831ceb316cf8, 8e8eb8fcd327c5d5f591cb1b71162f0b
+b75e42be8ed212a0:     retire_connection_id[4]: 0xa08ff4908eb02f50, 7622671d1af91a11cd24560fd032e053
+b75e42be8ed212a0:     retire_connection_id[5]: 0x820a09670d8516a7, ede9e17d3d10de1a15993e35908ecc4c
+b75e42be8ed212a0:     retire_connection_id[6]: 0xf5ae67a546a814e8, 7cd6193a572ebd957b7680c2323f6bd6
+b75e42be8ed212a0:     retire_connection_id[7]: 0x140fba302df6328f, e8f55e0e5af8b84bccb04e1329962ff2
+b75e42be8ed212a0:     padding, 89 bytes
+
+b75e42be8ed212a0: T= 0.001022, cwin: 16843,flight: 1879,nb_ret: 0,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 2 (2), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     ack_frequency: S=0, P=6, uS=1000, Reordering threshold: 0
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     padding, 21 bytes
+
+b75e42be8ed212a0: T= 0.001048, cwin: 16843,flight: 1934,nb_ret: 0,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.001048 (1ade35e8d)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 3 (3), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     time_stamp: 259
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 16 bytes
+
+b75e42be8ed212a0: T= 0.002076, cwin: 16843,flight: 1989,nb_ret: 0,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.002076 (1ade36291)
+b75e42be8ed212a0: T= 0.012848, Lost packet type 6, number 0, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 4 (4), Phi: 0,
+b75e42be8ed212a0:     Prepared 413 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 1606
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 30 bytes
+
+b75e42be8ed212a0: T= 0.012848, cwin: 3241,flight: 1989,nb_ret: 1,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=0.012848 (1ade38ca5)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 5 (5), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 9 bytes
+
+b75e42be8ed212a0: T= 0.012848, cwin: 3241,flight: 2044,nb_ret: 1,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.012848 (1ade38ca5)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 6 (6), Phi: 0,
+b75e42be8ed212a0:     Prepared 1414 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1413 bytes
+
+b75e42be8ed212a0: T= 0.012848, cwin: 3241,flight: 3484,nb_ret: 1,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.012848 (1ade38ca5)
+b75e42be8ed212a0: T= 0.034321, Lost packet type 6, number 1, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 0.034321, Lost packet type 6, number 2, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 7 (7), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 4290
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 15 bytes
+
+b75e42be8ed212a0: T= 0.034321, cwin: 3241,flight: 2044,nb_ret: 3,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.034321 (1ade3e086)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 8 (8), Phi: 0,
+b75e42be8ed212a0:     Prepared 1414 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1413 bytes
+
+b75e42be8ed212a0: T= 0.034321, cwin: 3241,flight: 3484,nb_ret: 3,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.034321 (1ade3e086)
+b75e42be8ed212a0: T= 0.077215, Lost packet type 6, number 4, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 9 (9), Phi: 0,
+b75e42be8ed212a0:     Prepared 413 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 9651
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 30 bytes
+
+b75e42be8ed212a0: T= 0.077215, cwin: 3241,flight: 3429,nb_ret: 4,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=0.077215 (1ade48814)
+b75e42be8ed212a0: T= 0.130824, Lost packet type 6, number 5, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 10 (10), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 9 bytes
+
+b75e42be8ed212a0: T= 0.130824, cwin: 3241,flight: 3429,nb_ret: 5,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.130824 (1ade5597d)
+b75e42be8ed212a0: T= 0.195154, Lost packet type 6, number 6, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 0.195154, Lost packet type 6, number 7, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 11 (11), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 24394
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 11 bytes
+
+b75e42be8ed212a0: T= 0.195154, cwin: 3241,flight: 1989,nb_ret: 7,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.195154 (1ade654c7)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 12 (12), Phi: 0,
+b75e42be8ed212a0:     Prepared 1414 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1413 bytes
+
+b75e42be8ed212a0: T= 0.195154, cwin: 3241,flight: 3429,nb_ret: 7,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.195154 (1ade654c7)
+b75e42be8ed212a0: T= 0.270193, Lost packet type 6, number 8, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 0.270193, Lost packet type 6, number 9, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 13 (13), Phi: 0,
+b75e42be8ed212a0:     Prepared 413 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 33774
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 26 bytes
+
+b75e42be8ed212a0: T= 0.270193, cwin: 3241,flight: 1989,nb_ret: 9,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=0.270193 (1ade779e6)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 14 (14), Phi: 0,
+b75e42be8ed212a0:     Prepared 1414 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1413 bytes
+
+b75e42be8ed212a0: T= 0.270193, cwin: 3241,flight: 3429,nb_ret: 9,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.270193 (1ade779e6)
+b75e42be8ed212a0: T= 0.356001, Lost packet type 6, number 10, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 15 (15), Phi: 0,
+b75e42be8ed212a0:     Prepared 29 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 9 bytes
+
+b75e42be8ed212a0: T= 0.356001, cwin: 3241,flight: 3429,nb_ret: 10,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.356001 (1ade8c916)
+b75e42be8ed212a0: T= 0.463188, Lost packet type 6, number 11, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 16 (16), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 57898
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 0.463188, cwin: 3241,flight: 3429,nb_ret: 11,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.463188 (1adea6bc9)
+b75e42be8ed212a0: T= 0.591815, Lost packet type 6, number 12, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 0.591815, Lost packet type 6, number 13, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 17 (17), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 73976
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 0.591815, cwin: 3241,flight: 1989,nb_ret: 13,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=0.591815 (1adec623c)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 18 (18), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 0.591815, cwin: 3241,flight: 3429,nb_ret: 13,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.591815 (1adec623c)
+b75e42be8ed212a0: T= 0.741869, Lost packet type 6, number 14, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 0.741869, Lost packet type 6, number 15, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 19 (19), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 0.741869, cwin: 3241,flight: 1989,nb_ret: 15,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.741869 (1adeeac62)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 20 (20), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 0.741869, cwin: 3241,flight: 3429,nb_ret: 15,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=0.741869 (1adeeac62)
+b75e42be8ed212a0: T= 0.913362, Lost packet type 6, number 16, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 21 (21), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 114170
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 0.913362, cwin: 3241,flight: 3429,nb_ret: 16,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=0.913362 (1adf14a47)
+b75e42be8ed212a0: T= 1.127722, Lost packet type 6, number 17, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 22 (22), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 140965
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 1.127722, cwin: 3241,flight: 3429,nb_ret: 17,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=1.127722 (1adf48f9f)
+b75e42be8ed212a0: T= 1.384935, Lost packet type 6, number 18, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 1.384935, Lost packet type 6, number 19, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 23 (23), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 1.384935, cwin: 3241,flight: 1989,nb_ret: 19,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=1.384935 (1adf87c5c)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 24 (24), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 1.384935, cwin: 3241,flight: 3429,nb_ret: 19,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=1.384935 (1adf87c5c)
+b75e42be8ed212a0: T= 1.685013, Lost packet type 6, number 20, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 1.685013, Lost packet type 6, number 21, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 25 (25), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 210626
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 1.685013, cwin: 3241,flight: 1989,nb_ret: 21,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=1.685013 (1adfd108a)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 26 (26), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 1.685013, cwin: 3241,flight: 3429,nb_ret: 21,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=1.685013 (1adfd108a)
+b75e42be8ed212a0: T= 2.027968, Lost packet type 6, number 22, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 27 (27), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 253496
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 2.027968, cwin: 3241,flight: 3429,nb_ret: 22,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=2.027968 (1ae024c35)
+b75e42be8ed212a0: T= 2.456530, Lost packet type 6, number 23, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 28 (28), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 2.456530, cwin: 3241,flight: 3429,nb_ret: 23,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=2.456530 (1ae08d647)
+b75e42be8ed212a0: T= 2.970542, Lost packet type 6, number 24, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 2.970542, Lost packet type 6, number 25, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 29 (29), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 371317
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 2.970542, cwin: 3241,flight: 1989,nb_ret: 25,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=2.970542 (1ae10ae23)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 30 (30), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 2.970542, cwin: 3241,flight: 3429,nb_ret: 25,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=2.970542 (1ae10ae23)
+b75e42be8ed212a0: T= 3.570519, Lost packet type 6, number 26, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 3.570519, Lost packet type 6, number 27, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 31 (31), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 446314
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 3.570519, cwin: 3241,flight: 1989,nb_ret: 27,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=3.570519 (1ae19d5cc)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 32 (32), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 3.570519, cwin: 3241,flight: 3429,nb_ret: 27,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=3.570519 (1ae19d5cc)
+b75e42be8ed212a0: T= 4.256399, Lost packet type 6, number 28, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 33 (33), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 4.256399, cwin: 3241,flight: 3429,nb_ret: 28,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=4.256399 (1ae244d04)
+b75e42be8ed212a0: T= 5.113521, Lost packet type 6, number 29, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 34 (34), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 639190
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 5.113521, cwin: 3241,flight: 3429,nb_ret: 29,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=5.113521 (1ae316126)
+b75e42be8ed212a0: T= 6.142552, Lost packet type 6, number 30, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 6.142552, Lost packet type 6, number 31, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 35 (35), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 767819
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 6.142552, cwin: 3241,flight: 1989,nb_ret: 31,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=6.142552 (1ae4114cd)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 36 (36), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 6.142552, cwin: 3241,flight: 3429,nb_ret: 31,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=6.142552 (1ae4114cd)
+b75e42be8ed212a0: T= 7.171368, Lost packet type 6, number 32, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 7.171368, Lost packet type 6, number 33, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 37 (37), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 7.171368, cwin: 3241,flight: 1989,nb_ret: 33,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=7.171368 (1ae50c79d)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 38 (38), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 7.171368, cwin: 3241,flight: 3429,nb_ret: 33,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=7.171368 (1ae50c79d)
+b75e42be8ed212a0: T= 8.199519, Lost packet type 6, number 34, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 39 (39), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 1024939
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 8.199519, cwin: 3241,flight: 3429,nb_ret: 34,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=8.199519 (1ae6077d4)
+b75e42be8ed212a0: T= 9.228348, Lost packet type 6, number 35, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 40 (40), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 1153543
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 9.228348, cwin: 3241,flight: 3429,nb_ret: 35,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=9.228348 (1ae702ab1)
+b75e42be8ed212a0: T= 10.256530, Lost packet type 6, number 36, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 10.256530, Lost packet type 6, number 37, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 41 (41), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 10.256530, cwin: 3241,flight: 1989,nb_ret: 37,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=10.256530 (1ae7fdb07)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 42 (42), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 10.256530, cwin: 3241,flight: 3429,nb_ret: 37,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=10.256530 (1ae7fdb07)
+b75e42be8ed212a0: T= 11.284518, Lost packet type 6, number 38, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 11.284518, Lost packet type 6, number 39, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 43 (43), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 1410564
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 11.284518, cwin: 3241,flight: 1989,nb_ret: 39,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=11.284518 (1ae8f8a9b)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 44 (44), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 11.284518, cwin: 3241,flight: 3429,nb_ret: 39,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=11.284518 (1ae8f8a9b)
+b75e42be8ed212a0: T= 12.313348, Lost packet type 6, number 40, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 45 (45), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 1539168
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 12.313348, cwin: 3241,flight: 3429,nb_ret: 40,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=12.313348 (1ae9f3d79)
+b75e42be8ed212a0: T= 13.342528, Lost packet type 6, number 41, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 46 (46), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 13.342528, cwin: 3241,flight: 3429,nb_ret: 41,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=13.342528 (1aeaef1b5)
+b75e42be8ed212a0: T= 14.371366, Lost packet type 6, number 42, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 14.371366, Lost packet type 6, number 43, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 47 (47), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 1796420
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 14.371366, cwin: 3241,flight: 1989,nb_ret: 43,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=14.371366 (1aebea49b)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 48 (48), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 14.371366, cwin: 3241,flight: 3429,nb_ret: 43,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=14.371366 (1aebea49b)
+b75e42be8ed212a0: T= 15.400150, Lost packet type 6, number 44, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 15.400150, Lost packet type 6, number 45, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 49 (49), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 1925018
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 15.400150, cwin: 3241,flight: 1989,nb_ret: 45,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=15.400150 (1aece574b)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 50 (50), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 15.400150, cwin: 3241,flight: 3429,nb_ret: 45,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=15.400150 (1aece574b)
+b75e42be8ed212a0: T= 16.428980, Lost packet type 6, number 46, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 51 (51), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 16.428980, cwin: 3241,flight: 3429,nb_ret: 46,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=16.428980 (1aede0a29)
+b75e42be8ed212a0: T= 17.457794, Lost packet type 6, number 47, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 52 (52), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 2182224
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 17.457794, cwin: 3241,flight: 3429,nb_ret: 47,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=17.457794 (1aeedbcf7)
+b75e42be8ed212a0: T= 18.486618, Lost packet type 6, number 48, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 18.486618, Lost packet type 6, number 49, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 53 (53), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 2310827
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 18.486618, cwin: 3241,flight: 1989,nb_ret: 49,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=18.486618 (1aefd6fcf)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 54 (54), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 18.486618, cwin: 3241,flight: 3429,nb_ret: 49,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=18.486618 (1aefd6fcf)
+b75e42be8ed212a0: T= 19.515441, Lost packet type 6, number 50, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 19.515441, Lost packet type 6, number 51, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 55 (55), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 19.515441, cwin: 3241,flight: 1989,nb_ret: 51,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=19.515441 (1af0d22a6)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 56 (56), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 19.515441, cwin: 3241,flight: 3429,nb_ret: 51,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=19.515441 (1af0d22a6)
+b75e42be8ed212a0: T= 20.544270, Lost packet type 6, number 52, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 57 (57), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 2568033
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 20.544270, cwin: 3241,flight: 3429,nb_ret: 52,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=20.544270 (1af1cd583)
+b75e42be8ed212a0: T= 21.572532, Lost packet type 6, number 53, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 58 (58), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 2696566
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 21.572532, cwin: 3241,flight: 3429,nb_ret: 53,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=21.572532 (1af2c8629)
+b75e42be8ed212a0: T= 22.600518, Lost packet type 6, number 54, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 22.600518, Lost packet type 6, number 55, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 59 (59), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 22.600518, cwin: 3241,flight: 1989,nb_ret: 55,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=22.600518 (1af3c35bb)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 60 (60), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 22.600518, cwin: 3241,flight: 3429,nb_ret: 55,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=22.600518 (1af3c35bb)
+b75e42be8ed212a0: T= 23.628537, Lost packet type 6, number 56, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 23.628537, Lost packet type 6, number 57, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 61 (61), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 2953567
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 23.628537, cwin: 3241,flight: 1989,nb_ret: 57,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=23.628537 (1af4be56e)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 62 (62), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 23.628537, cwin: 3241,flight: 3429,nb_ret: 57,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=23.628537 (1af4be56e)
+b75e42be8ed212a0: T= 24.656519, Lost packet type 6, number 58, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 63 (63), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 3082064
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 24.656519, cwin: 3241,flight: 3429,nb_ret: 58,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=24.656519 (1af5b94fc)
+b75e42be8ed212a0: T= 25.684520, Lost packet type 6, number 59, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 64 (64), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 25.684520, cwin: 3241,flight: 3429,nb_ret: 59,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=25.684520 (1af6b449d)
+b75e42be8ed212a0: T= 26.713337, Lost packet type 6, number 60, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 26.713337, Lost packet type 6, number 61, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 65 (65), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 3339167
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 26.713337, cwin: 3241,flight: 1989,nb_ret: 61,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=26.713337 (1af7af76e)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 66 (66), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 26.713337, cwin: 3241,flight: 3429,nb_ret: 61,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=26.713337 (1af7af76e)
+b75e42be8ed212a0: T= 27.741522, Lost packet type 6, number 62, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 27.741522, Lost packet type 6, number 63, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 67 (67), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 3467690
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 27.741522, cwin: 3241,flight: 1989,nb_ret: 63,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=27.741522 (1af8aa7c7)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 68 (68), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 27.741522, cwin: 3241,flight: 3429,nb_ret: 63,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=27.741522 (1af8aa7c7)
+b75e42be8ed212a0: T= 28.770346, Lost packet type 6, number 64, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 69 (69), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 28.770346, cwin: 3241,flight: 3429,nb_ret: 64,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=28.770346 (1af9a5a9f)
+b75e42be8ed212a0: T= 29.798521, Lost packet type 6, number 65, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 70 (70), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 3724815
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 29.798521, cwin: 3241,flight: 3429,nb_ret: 65,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=29.798521 (1afaa0aee)
+b75e42be8ed212a0: T= 30.826519, Lost packet type 6, number 66, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 30.826519, Lost packet type 6, number 67, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 71 (71), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 3853314
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 30.826519, cwin: 3241,flight: 1989,nb_ret: 67,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=30.826519 (1afb9ba8c)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 72 (72), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 30.826519, cwin: 3241,flight: 3429,nb_ret: 67,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=30.826519 (1afb9ba8c)
+b75e42be8ed212a0: T= 31.855342, Lost packet type 6, number 68, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 31.855342, Lost packet type 6, number 69, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 73 (73), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 31.855342, cwin: 3241,flight: 1989,nb_ret: 69,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=31.855342 (1afc96d63)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 74 (74), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 31.855342, cwin: 3241,flight: 3429,nb_ret: 69,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=31.855342 (1afc96d63)
+b75e42be8ed212a0: T= 32.883518, Lost packet type 6, number 70, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 75 (75), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 4110439
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 32.883518, cwin: 3241,flight: 3429,nb_ret: 70,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=32.883518 (1afd91db3)
+b75e42be8ed212a0: T= 33.912334, Lost packet type 6, number 71, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 76 (76), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 4239041
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 33.912334, cwin: 3241,flight: 3429,nb_ret: 71,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=33.912334 (1afe8d083)
+b75e42be8ed212a0: T= 34.941148, Lost packet type 6, number 72, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 34.941148, Lost packet type 6, number 73, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 77 (77), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 34.941148, cwin: 3241,flight: 1989,nb_ret: 73,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=34.941148 (1aff88351)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 78 (78), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 34.941148, cwin: 3241,flight: 3429,nb_ret: 73,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=34.941148 (1aff88351)
+b75e42be8ed212a0: T= 35.969520, Lost packet type 6, number 74, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 35.969520, Lost packet type 6, number 75, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 79 (79), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 4496190
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 35.969520, cwin: 3241,flight: 1989,nb_ret: 75,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=35.969520 (1b0083465)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 80 (80), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 35.969520, cwin: 3241,flight: 3429,nb_ret: 75,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=35.969520 (1b0083465)
+b75e42be8ed212a0: T= 36.998349, Lost packet type 6, number 76, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 81 (81), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 4624793
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 36.998349, cwin: 3241,flight: 3429,nb_ret: 76,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=36.998349 (1b017e742)
+b75e42be8ed212a0: T= 38.026518, Lost packet type 6, number 77, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 82 (82), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 38.026518, cwin: 3241,flight: 3429,nb_ret: 77,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=38.026518 (1b027978b)
+b75e42be8ed212a0: T= 39.055282, Lost packet type 6, number 78, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 39.055282, Lost packet type 6, number 79, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 83 (83), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 4881910
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 39.055282, cwin: 3241,flight: 1989,nb_ret: 79,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=39.055282 (1b0374a27)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 84 (84), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 39.055282, cwin: 3241,flight: 3429,nb_ret: 79,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=39.055282 (1b0374a27)
+b75e42be8ed212a0: T= 40.084103, Lost packet type 6, number 80, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 40.084103, Lost packet type 6, number 81, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 85 (85), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 5010512
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 40.084103, cwin: 3241,flight: 1989,nb_ret: 81,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=40.084103 (1b046fcfc)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 86 (86), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 40.084103, cwin: 3241,flight: 3429,nb_ret: 81,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=40.084103 (1b046fcfc)
+b75e42be8ed212a0: T= 41.112518, Lost packet type 6, number 82, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 87 (87), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 41.112518, cwin: 3241,flight: 3429,nb_ret: 82,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=41.112518 (1b056ae3b)
+b75e42be8ed212a0: T= 42.141325, Lost packet type 6, number 83, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 88 (88), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 5267665
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 42.141325, cwin: 3241,flight: 3429,nb_ret: 83,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=42.141325 (1b0666102)
+b75e42be8ed212a0: T= 43.170153, Lost packet type 6, number 84, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 43.170153, Lost packet type 6, number 85, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 89 (89), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 5396269
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 43.170153, cwin: 3241,flight: 1989,nb_ret: 85,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=43.170153 (1b07613de)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 90 (90), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 43.170153, cwin: 3241,flight: 3429,nb_ret: 85,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=43.170153 (1b07613de)
+b75e42be8ed212a0: T= 44.198977, Lost packet type 6, number 86, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 44.198977, Lost packet type 6, number 87, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 91 (91), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 44.198977, cwin: 3241,flight: 1989,nb_ret: 87,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=44.198977 (1b085c6b6)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 92 (92), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 44.198977, cwin: 3241,flight: 3429,nb_ret: 87,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=44.198977 (1b085c6b6)
+b75e42be8ed212a0: T= 45.227468, Lost packet type 6, number 88, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 93 (93), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 5653433
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 45.227468, cwin: 3241,flight: 3429,nb_ret: 88,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=45.227468 (1b0957841)
+b75e42be8ed212a0: T= 46.256290, Lost packet type 6, number 89, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 94 (94), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 5782036
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 46.256290, cwin: 3241,flight: 3429,nb_ret: 89,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=46.256290 (1b0a52b17)
+b75e42be8ed212a0: T= 47.285136, Lost packet type 6, number 90, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 47.285136, Lost packet type 6, number 91, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 95 (95), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 47.285136, cwin: 3241,flight: 1989,nb_ret: 91,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=47.285136 (1b0b4de05)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 96 (96), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 47.285136, cwin: 3241,flight: 3429,nb_ret: 91,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=47.285136 (1b0b4de05)
+b75e42be8ed212a0: T= 48.313529, Lost packet type 6, number 92, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 48.313529, Lost packet type 6, number 93, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 97 (97), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 6039191
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 48.313529, cwin: 3241,flight: 1989,nb_ret: 93,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=48.313529 (1b0c48f2e)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 98 (98), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 48.313529, cwin: 3241,flight: 3429,nb_ret: 93,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=48.313529 (1b0c48f2e)
+b75e42be8ed212a0: T= 49.342366, Lost packet type 6, number 94, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 99 (99), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 6167795
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 49.342366, cwin: 3241,flight: 3429,nb_ret: 94,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=49.342366 (1b0d44213)
+b75e42be8ed212a0: T= 50.371198, Lost packet type 6, number 95, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 100 (100), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 50.371198, cwin: 3241,flight: 3429,nb_ret: 95,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=50.371198 (1b0e3f4f3)
+b75e42be8ed212a0: T= 51.400030, Lost packet type 6, number 96, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 51.400030, Lost packet type 6, number 97, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 101 (101), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 6425003
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 51.400030, cwin: 3241,flight: 1989,nb_ret: 97,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=51.400030 (1b0f3a7d3)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 102 (102), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 51.400030, cwin: 3241,flight: 3429,nb_ret: 97,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=51.400030 (1b0f3a7d3)
+b75e42be8ed212a0: T= 52.428530, Lost packet type 6, number 98, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 52.428530, Lost packet type 6, number 99, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 103 (103), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 6553566
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 52.428530, cwin: 3241,flight: 1989,nb_ret: 99,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=52.428530 (1b1035967)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 104 (104), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 52.428530, cwin: 3241,flight: 3429,nb_ret: 99,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=52.428530 (1b1035967)
+b75e42be8ed212a0: T= 53.457663, Lost packet type 6, number 100, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 105 (105), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 53.457663, cwin: 3241,flight: 3429,nb_ret: 100,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=53.457663 (1b1130d74)
+b75e42be8ed212a0: T= 54.486491, Lost packet type 6, number 101, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 106 (106), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 6810811
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 54.486491, cwin: 3241,flight: 3429,nb_ret: 101,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=54.486491 (1b122c050)
+b75e42be8ed212a0: T= 55.515325, Lost packet type 6, number 102, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 55.515325, Lost packet type 6, number 103, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 107 (107), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 6939415
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 55.515325, cwin: 3241,flight: 1989,nb_ret: 103,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=55.515325 (1b1327332)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 108 (108), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 55.515325, cwin: 3241,flight: 3429,nb_ret: 103,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=55.515325 (1b1327332)
+b75e42be8ed212a0: T= 56.544171, Lost packet type 6, number 104, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 56.544171, Lost packet type 6, number 105, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 109 (109), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 56.544171, cwin: 3241,flight: 1989,nb_ret: 105,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=56.544171 (1b1422620)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 110 (110), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 56.544171, cwin: 3241,flight: 3429,nb_ret: 105,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=56.544171 (1b1422620)
+b75e42be8ed212a0: T= 57.572996, Lost packet type 6, number 106, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 111 (111), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 7196624
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 57.572996, cwin: 3241,flight: 3429,nb_ret: 106,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=57.572996 (1b151d8f9)
+b75e42be8ed212a0: T= 58.601824, Lost packet type 6, number 107, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 112 (112), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 7325228
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 58.601824, cwin: 3241,flight: 3429,nb_ret: 107,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=58.601824 (1b1618bd5)
+b75e42be8ed212a0: T= 59.630672, Lost packet type 6, number 108, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 59.630672, Lost packet type 6, number 109, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 113 (113), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 59.630672, cwin: 3241,flight: 1989,nb_ret: 109,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=59.630672 (1b1713ec5)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 114 (114), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 59.630672, cwin: 3241,flight: 3429,nb_ret: 109,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=59.630672 (1b1713ec5)
+b75e42be8ed212a0: T= 60.659490, Lost packet type 6, number 110, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 60.659490, Lost packet type 6, number 111, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 115 (115), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 7582436
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 60.659490, cwin: 3241,flight: 1989,nb_ret: 111,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=60.659490 (1b180f197)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 116 (116), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 60.659490, cwin: 3241,flight: 3429,nb_ret: 111,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=60.659490 (1b180f197)
+b75e42be8ed212a0: T= 61.688305, Lost packet type 6, number 112, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 117 (117), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 7711038
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 61.688305, cwin: 3241,flight: 3429,nb_ret: 112,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=61.688305 (1b190a466)
+b75e42be8ed212a0: T= 62.717280, Lost packet type 6, number 113, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 118 (118), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 62.717280, cwin: 3241,flight: 3429,nb_ret: 113,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=62.717280 (1b1a057d5)
+b75e42be8ed212a0: T= 63.745518, Lost packet type 6, number 114, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 63.745518, Lost packet type 6, number 115, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 119 (119), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 7968189
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 63.745518, cwin: 3241,flight: 1989,nb_ret: 115,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=63.745518 (1b1b00863)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 120 (120), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 63.745518, cwin: 3241,flight: 3429,nb_ret: 115,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=63.745518 (1b1b00863)
+b75e42be8ed212a0: T= 64.774333, Lost packet type 6, number 116, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 64.774333, Lost packet type 6, number 117, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 121 (121), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 8096791
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 64.774333, cwin: 3241,flight: 1989,nb_ret: 117,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=64.774333 (1b1bfbb32)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 122 (122), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 64.774333, cwin: 3241,flight: 3429,nb_ret: 117,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=64.774333 (1b1bfbb32)
+b75e42be8ed212a0: T= 65.803120, Lost packet type 6, number 118, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 123 (123), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 65.803120, cwin: 3241,flight: 3429,nb_ret: 118,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=65.803120 (1b1cf6de5)
+b75e42be8ed212a0: T= 66.831518, Lost packet type 6, number 119, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 124 (124), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 8353939
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 66.831518, cwin: 3241,flight: 3429,nb_ret: 119,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=66.831518 (1b1df1f13)
+b75e42be8ed212a0: T= 67.860332, Lost packet type 6, number 120, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 67.860332, Lost packet type 6, number 121, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 125 (125), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 8482541
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 67.860332, cwin: 3241,flight: 1989,nb_ret: 121,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=67.860332 (1b1eed1e1)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 126 (126), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 67.860332, cwin: 3241,flight: 3429,nb_ret: 121,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=67.860332 (1b1eed1e1)
+b75e42be8ed212a0: T= 68.889160, Lost packet type 6, number 122, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 68.889160, Lost packet type 6, number 123, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 127 (127), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 68.889160, cwin: 3241,flight: 1989,nb_ret: 123,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=68.889160 (1b1fe84bd)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 128 (128), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 68.889160, cwin: 3241,flight: 3429,nb_ret: 123,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=68.889160 (1b1fe84bd)
+b75e42be8ed212a0: T= 69.917969, Lost packet type 6, number 124, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 129 (129), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 8739746
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 69.917969, cwin: 3241,flight: 3429,nb_ret: 124,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=69.917969 (1b20e3786)
+b75e42be8ed212a0: T= 70.946779, Lost packet type 6, number 125, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 130 (130), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 8868347
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 70.946779, cwin: 3241,flight: 3429,nb_ret: 125,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=70.946779 (1b21dea50)
+b75e42be8ed212a0: T= 71.975519, Lost packet type 6, number 126, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 71.975519, Lost packet type 6, number 127, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 131 (131), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 71.975519, cwin: 3241,flight: 1989,nb_ret: 127,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=71.975519 (1b22d9cd4)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 132 (132), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 71.975519, cwin: 3241,flight: 3429,nb_ret: 127,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=71.975519 (1b22d9cd4)
+b75e42be8ed212a0: T= 73.004365, Lost packet type 6, number 128, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 73.004365, Lost packet type 6, number 129, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 133 (133), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 9125545
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 73.004365, cwin: 3241,flight: 1989,nb_ret: 129,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=73.004365 (1b23d4fc2)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 134 (134), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 73.004365, cwin: 3241,flight: 3429,nb_ret: 129,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=73.004365 (1b23d4fc2)
+b75e42be8ed212a0: T= 74.033192, Lost packet type 6, number 130, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 135 (135), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 9254149
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 74.033192, cwin: 3241,flight: 3429,nb_ret: 130,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=74.033192 (1b24d029d)
+b75e42be8ed212a0: T= 75.061520, Lost packet type 6, number 131, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 136 (136), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 75.061520, cwin: 3241,flight: 3429,nb_ret: 131,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=75.061520 (1b25cb385)
+b75e42be8ed212a0: T= 76.089518, Lost packet type 6, number 132, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 76.089518, Lost packet type 6, number 133, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 137 (137), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 9511189
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 76.089518, cwin: 3241,flight: 1989,nb_ret: 133,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=76.089518 (1b26c6323)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 138 (138), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 76.089518, cwin: 3241,flight: 3429,nb_ret: 133,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=76.089518 (1b26c6323)
+b75e42be8ed212a0: T= 77.118317, Lost packet type 6, number 134, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 77.118317, Lost packet type 6, number 135, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 139 (139), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 9639789
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 77.118317, cwin: 3241,flight: 1989,nb_ret: 135,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=77.118317 (1b27c15e2)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 140 (140), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 77.118317, cwin: 3241,flight: 3429,nb_ret: 135,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=77.118317 (1b27c15e2)
+b75e42be8ed212a0: T= 78.147137, Lost packet type 6, number 136, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 141 (141), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 78.147137, cwin: 3241,flight: 3429,nb_ret: 136,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=78.147137 (1b28bc8b6)
+b75e42be8ed212a0: T= 79.175520, Lost packet type 6, number 137, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 142 (142), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 9896940
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 79.175520, cwin: 3241,flight: 3429,nb_ret: 137,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=79.175520 (1b29b79d5)
+b75e42be8ed212a0: T= 80.204336, Lost packet type 6, number 138, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 80.204336, Lost packet type 6, number 139, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 143 (143), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 10025542
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 80.204336, cwin: 3241,flight: 1989,nb_ret: 139,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=80.204336 (1b2ab2ca5)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 144 (144), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 80.204336, cwin: 3241,flight: 3429,nb_ret: 139,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=80.204336 (1b2ab2ca5)
+b75e42be8ed212a0: T= 81.232518, Lost packet type 6, number 140, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 81.232518, Lost packet type 6, number 141, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 145 (145), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 81.232518, cwin: 3241,flight: 1989,nb_ret: 141,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=81.232518 (1b2badcfb)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 146 (146), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 81.232518, cwin: 3241,flight: 3429,nb_ret: 141,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=81.232518 (1b2badcfb)
+b75e42be8ed212a0: T= 82.261762, Lost packet type 6, number 142, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 147 (147), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 10282720
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 82.261762, cwin: 3241,flight: 3429,nb_ret: 142,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=82.261762 (1b2ca9177)
+b75e42be8ed212a0: T= 83.290519, Lost packet type 6, number 143, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 148 (148), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 10411314
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 83.290519, cwin: 3241,flight: 3429,nb_ret: 143,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=83.290519 (1b2da440c)
+b75e42be8ed212a0: T= 84.319350, Lost packet type 6, number 144, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 84.319350, Lost packet type 6, number 145, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 149 (149), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 84.319350, cwin: 3241,flight: 1989,nb_ret: 145,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=84.319350 (1b2e9f6eb)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 150 (150), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 84.319350, cwin: 3241,flight: 3429,nb_ret: 145,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=84.319350 (1b2e9f6eb)
+b75e42be8ed212a0: T= 85.348098, Lost packet type 6, number 146, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 85.348098, Lost packet type 6, number 147, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 151 (151), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 10668512
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 85.348098, cwin: 3241,flight: 1989,nb_ret: 147,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=85.348098 (1b2f9a977)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 152 (152), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 85.348098, cwin: 3241,flight: 3429,nb_ret: 147,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=85.348098 (1b2f9a977)
+b75e42be8ed212a0: T= 86.376912, Lost packet type 6, number 148, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 153 (153), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 10797114
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 86.376912, cwin: 3241,flight: 3429,nb_ret: 148,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=86.376912 (1b3095c45)
+b75e42be8ed212a0: T= 87.405740, Lost packet type 6, number 149, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 154 (154), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 87.405740, cwin: 3241,flight: 3429,nb_ret: 149,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=87.405740 (1b3190f21)
+b75e42be8ed212a0: T= 88.434557, Lost packet type 6, number 150, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 88.434557, Lost packet type 6, number 151, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 155 (155), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 11054319
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 88.434557, cwin: 3241,flight: 1989,nb_ret: 151,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=88.434557 (1b328c1f2)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 156 (156), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 88.434557, cwin: 3241,flight: 3429,nb_ret: 151,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=88.434557 (1b328c1f2)
+b75e42be8ed212a0: T= 89.463365, Lost packet type 6, number 152, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 89.463365, Lost packet type 6, number 153, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 157 (157), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 11182920
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 89.463365, cwin: 3241,flight: 1989,nb_ret: 153,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=89.463365 (1b33874ba)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 158 (158), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 89.463365, cwin: 3241,flight: 3429,nb_ret: 153,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=89.463365 (1b33874ba)
+b75e42be8ed212a0: T= 90.492196, Lost packet type 6, number 154, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 159 (159), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 90.492196, cwin: 3241,flight: 3429,nb_ret: 154,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=90.492196 (1b3482799)
+b75e42be8ed212a0: T= 91.520999, Lost packet type 6, number 155, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 160 (160), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 11440124
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 91.520999, cwin: 3241,flight: 3429,nb_ret: 155,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=91.520999 (1b357da5c)
+b75e42be8ed212a0: T= 92.549523, Lost packet type 6, number 156, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 92.549523, Lost packet type 6, number 157, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 161 (161), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 11568690
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 92.549523, cwin: 3241,flight: 1989,nb_ret: 157,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=92.549523 (1b3678c08)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 162 (162), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 92.549523, cwin: 3241,flight: 3429,nb_ret: 157,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=92.549523 (1b3678c08)
+b75e42be8ed212a0: T= 93.578338, Lost packet type 6, number 158, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 93.578338, Lost packet type 6, number 159, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 163 (163), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 93.578338, cwin: 3241,flight: 1989,nb_ret: 159,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=93.578338 (1b3773ed7)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 164 (164), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 93.578338, cwin: 3241,flight: 3429,nb_ret: 159,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=93.578338 (1b3773ed7)
+b75e42be8ed212a0: T= 94.607110, Lost packet type 6, number 160, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 165 (165), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 11825888
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 94.607110, cwin: 3241,flight: 3429,nb_ret: 160,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=94.607110 (1b386f17b)
+b75e42be8ed212a0: T= 95.635937, Lost packet type 6, number 161, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 166 (166), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 11954492
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 95.635937, cwin: 3241,flight: 3429,nb_ret: 161,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=95.635937 (1b396a456)
+b75e42be8ed212a0: T= 96.664753, Lost packet type 6, number 162, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 96.664753, Lost packet type 6, number 163, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 167 (167), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 96.664753, cwin: 3241,flight: 1989,nb_ret: 163,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=96.664753 (1b3a65726)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 168 (168), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 96.664753, cwin: 3241,flight: 3429,nb_ret: 163,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=96.664753 (1b3a65726)
+b75e42be8ed212a0: T= 97.693520, Lost packet type 6, number 164, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 97.693520, Lost packet type 6, number 165, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 169 (169), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 12211690
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 97.693520, cwin: 3241,flight: 1989,nb_ret: 165,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=97.693520 (1b3b609c5)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 170 (170), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 97.693520, cwin: 3241,flight: 3429,nb_ret: 165,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=97.693520 (1b3b609c5)
+b75e42be8ed212a0: T= 98.722324, Lost packet type 6, number 166, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 171 (171), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 12340290
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 98.722324, cwin: 3241,flight: 3429,nb_ret: 166,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=98.722324 (1b3c5bc89)
+b75e42be8ed212a0: T= 99.750528, Lost packet type 6, number 167, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 172 (172), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 99.750528, cwin: 3241,flight: 3429,nb_ret: 167,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=99.750528 (1b3d56cf5)
+b75e42be8ed212a0: T= 100.779346, Lost packet type 6, number 168, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 100.779346, Lost packet type 6, number 169, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 173 (173), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 12597418
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 100.779346, cwin: 3241,flight: 1989,nb_ret: 169,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=100.779346 (1b3e51fc7)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 174 (174), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 100.779346, cwin: 3241,flight: 3429,nb_ret: 169,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=100.779346 (1b3e51fc7)
+b75e42be8ed212a0: T= 101.807537, Lost packet type 6, number 170, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 101.807537, Lost packet type 6, number 171, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 175 (175), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 12725942
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 101.807537, cwin: 3241,flight: 1989,nb_ret: 171,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=101.807537 (1b3f4d026)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 176 (176), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 101.807537, cwin: 3241,flight: 3429,nb_ret: 171,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127.0.0.1:43905 at T=101.807537 (1b3f4d026)
+b75e42be8ed212a0: T= 102.836354, Lost packet type 6, number 172, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 177 (177), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     stream 3, offset 0, length 9, fin = 0: 0004060100070008...
+b75e42be8ed212a0:     stream 7, offset 0, length 1, fin = 0: 02
+b75e42be8ed212a0:     stream 11, offset 0, length 1, fin = 0: 03
+b75e42be8ed212a0:     padding, 8 bytes
+
+b75e42be8ed212a0: T= 102.836354, cwin: 3241,flight: 3429,nb_ret: 172,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=102.836354 (1b40482f7)
+b75e42be8ed212a0: T= 103.865180, Lost packet type 6, number 173, size 39, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 178 (178), Phi: 0,
+b75e42be8ed212a0:     Prepared 28 bytes
+b75e42be8ed212a0:     handshake_done
+b75e42be8ed212a0:     time_stamp: 12983147
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 10 bytes
+
+b75e42be8ed212a0: T= 103.865180, cwin: 3241,flight: 3429,nb_ret: 173,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 55 bytes to 127.0.0.1:43905 at T=103.865180 (1b41435d1)
+b75e42be8ed212a0: T= 104.893167, Lost packet type 6, number 174, size 1424, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: T= 104.893167, Lost packet type 6, number 175, size 423, DCID <980d440e44d62a34>, reason: timer
+b75e42be8ed212a0: Too many data retransmits, abandon path
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q0,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 179 (179), Phi: 0,
+b75e42be8ed212a0:     Prepared 412 bytes
+b75e42be8ed212a0:     crypto_hs, offset 0, length 118: 04000072000186a0...
+b75e42be8ed212a0:     new_token[50]: 0xf12816d3d02963e6b210d9848ab2c47c...
+b75e42be8ed212a0:     retire_connection_id[1]: 0xbfa21c35e2236ece, 92e0457febc338d78f3556dfc5e9f0a5
+b75e42be8ed212a0:     retire_connection_id[2]: 0x84fe292267c24ab3, d3379fed3376b3914698aeb68d8c718a
+b75e42be8ed212a0:     retire_connection_id[3]: 0xdd109dd6156358f0, 4c76c32cdb73536404bcaa5bddcee1c9
+b75e42be8ed212a0:     retire_connection_id[4]: 0xe930fbe9fcda9afd, ead209930723b7eb0a7fd0f6fa3d7e38
+b75e42be8ed212a0:     retire_connection_id[5]: 0x128cc4e58169f789, dd3b2f750bca13b2d8133cbc56d6e79f
+b75e42be8ed212a0:     retire_connection_id[6]: 0x84228d3d645bec01, b611250b985b7d185312598a8b7e43d4
+b75e42be8ed212a0:     retire_connection_id[7]: 0x3e993a21c84cc7cb, d1589b5654b5ca4b4be30b950aac4df8
+b75e42be8ed212a0:     time_stamp: 13111645
+b75e42be8ed212a0:     ack_ecn (nb=0), 0, ect0=0, ect1=1, ce=0
+b75e42be8ed212a0:     padding, 25 bytes
+
+b75e42be8ed212a0: T= 104.893167, cwin: 3241,flight: 1989,nb_ret: 175,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 439 bytes to 127.0.0.1:43905 at T=104.893167 (1b423e564)
+b75e42be8ed212a0: Sending packet type: 6 (1rtt protected), S1, Q1,
+b75e42be8ed212a0:     <980d440e44d62a34>, Seq: 180 (180), Phi: 0,
+b75e42be8ed212a0:     Prepared 1413 bytes
+b75e42be8ed212a0:     ping, 1 bytes
+b75e42be8ed212a0:     padding, 1412 bytes
+
+b75e42be8ed212a0: T= 104.893167, cwin: 3241,flight: 3429,nb_ret: 175,rtt_min: 283,rtt: 283,rtt_var: 141,max_ack_delay: 0,state: 14
+b75e42be8ed212a0: Sending 1440 bytes to 127

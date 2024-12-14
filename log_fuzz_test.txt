@@ -1,0 +1,657 @@
+Log fuzz test #99, sum: 9f0027303901
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 0
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1629117041824236549, reason: 6
+    new_token[8]: 0x95228c0501110801
+    Unknown frame, type: 547463843 (0xa0a1a2a3a4a5a6a7... + 8 bytes)
+Log fuzz test #99, packet 1
+    ack (nb=0), 38775798043904796
+    stop_sending: Stream 12 (0xc), Error 0x1d.
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 2
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 013cd459c97f0708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 3
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 354585754 (0x95228c9a90110801... + 16 bytes)
+Log fuzz test #99, packet 4
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 49
+    Malformed application_close, requires 53 bytes out of 47
+Log fuzz test #99, packet 5
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: te..
+    Unknown frame, type: 227620082983901697 (0xc328ab426e001a01... + 31 bytes)
+Log fuzz test #99, packet 6
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0435, Reason length 10673
+    Malformed application_close, requires 10678 bytes out of 47
+Log fuzz test #99, packet 7
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01024f2e3b060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 8
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: ..qB
+    Unknown frame, type: 3798940238806522369 (0xf4b88c0501001a01... + 31 bytes)
+Log fuzz test #99, packet 9
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 13951, offset 0, length 15, fin = 0: b8a2a3a4a5a6a7a8...
+Log fuzz test #99, packet 10
+    ack (nb=0), 772416109868-772416109870
+    stop_sending: Stream 0 (0x0), Error 0x0.
+    stop_sending: Stream 12 (0xc), Error 0x1d.
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 11
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01020304eefe1dd2
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 12
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    Unknown frame, type: 2104841333336464805 (0xdd35e60a6e145da5... + 10 bytes)
+Log fuzz test #99, packet 13
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 354603256 (0x9522d0f86da90801... + 16 bytes)
+Log fuzz test #99, packet 14
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: t..`
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 15
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a053e4a3a4a5a6a7...
+Log fuzz test #99, packet 16
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: .=..
+    Unknown frame, type: 864870620 (0xb38ce0dc01001a01... + 31 bytes)
+Log fuzz test #99, packet 17
+    ack (nb=2), 40114613860864-40114613860869, 40114613860862, 40114613860843-40114613860855
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 18
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 354550371 (0x9522026371110801... + 16 bytes)
+Log fuzz test #99, packet 19
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    Unknown frame, type: 52 (0x343c06dd2e2b999c... + 31 bytes)
+Log fuzz test #99, packet 20
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 010203b176410fab
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 21
+    ack (nb=2), 4328719360-4328719365, 4328719358
+        ack range error: largest=4328719351, range=4005760201686604367
+Log fuzz test #99, packet 22
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    stream 1, offset 2, length 3, fin = 1: 040506
+    new_token[8]: 0x95228c0501110801
+    Unknown frame, type: 547463843 (0xa0a1a2a3a4a5a6a7... + 8 bytes)
+Log fuzz test #99, packet 23
+    ack (nb=0), 43-45
+    stop_sending: Stream 0 (0x0), Error 0x0.
+    stop_sending: Stream 12 (0xc), Error 0x1d.
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 24
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a56c92...
+Log fuzz test #99, packet 25
+    ack (nb=2), 71566971367523328-71566971367523333, 71566971367523326, 71566971367523307-71566971367523319
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 26
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 27
+    ack (nb=2), 23155363130049536-23155363130049541, 23155363130049534, 23155363130049515-23155363130049527
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 28
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 018b713b05060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 29
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: 96a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 30
+    ack (nb=3), 8-12
+        ack range error: largest=1, range=1025
+Log fuzz test #99, packet 31
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 568945921, reason: 547463843
+    Unknown frame, type: 614835879 (0xa4a5a6a7a8a9aaab... + 4 bytes)
+Log fuzz test #99, packet 32
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: T.H.
+    Unknown frame, type: 6495 (0x595ffc0501001a01... + 31 bytes)
+Log fuzz test #99, packet 33
+    ack (nb=2), 137789592946497-137789592946502, 137789592946495, 137789592946476-137789592946488
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 34
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 35
+    ack (nb=2), 4328719360-4328719365, 4328719300-4328719309
+        ack range error: largest=4328719261, range=3423505392195626356
+Log fuzz test #99, packet 36
+    ack (nb=939733760), 4328719360-4328719365, 4328719317-4328719346, 4328718283-4328718287, 4328691696-4328704868, 3974106088-3974106089, 3974106060-3974106086, 3974106055-3974106057, 3974106046-3974106050, 3974106033-3974106039, 3974106016-3974106024, 3619520408-3619520409, 3619520381-3619520389, 3072056535-3619520378, 1775012739-2457220654
+        Malformed ACK RANGE, 939733746 blocks remain.
+Log fuzz test #99, packet 37
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 010203048f7f0c87
+    Unknown frame, type: 2521 (0x49d9234601110801... + 16 bytes)
+Log fuzz test #99, packet 38
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 364317985 (0x95b70d21cd7c25f9... + 16 bytes)
+Log fuzz test #99, packet 39
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: t...
+    Unknown frame, type: 55 (0x3778149101001a01... + 31 bytes)
+Log fuzz test #99, packet 40
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405894744
+    ack (nb=8), 692029696-692029697
+        ack range error: largest=144565851, range=614835880
+Log fuzz test #99, packet 41
+    ack (nb=50), 462148784-462148789, 462147756-462147758, 462147749, 462147742-462147747, 462147699-462147728, 462146665-462146669, 462120078-462133250, 107534470-107534471, 107534442-107534468, 107534437-107534439, 107534428-107534432, 107534415-107534421, 107534398-107534406
+        ack gap error: largest=107534406, range=9, gap=354585606
+Log fuzz test #99, packet 42
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    Unknown frame, type: 56171161 (0x83591a99a8fa1801... + 31 bytes)
+Log fuzz test #99, packet 43
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01024bf405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 44
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01020304c530fa3d
+    Unknown frame, type: 472026117 (0x9c228c0501110801... + 16 bytes)
+Log fuzz test #99, packet 45
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    Unknown frame, type: 53 (0x3566e35b01001a01... + 31 bytes)
+Log fuzz test #99, packet 46
+    ack (nb=2), 79110728642884-79110728642889, 79110728642882, 79110728642863-79110728642875
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 47
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a659...
+Log fuzz test #99, packet 48
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 49
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a000ece80920311d...
+Log fuzz test #99, packet 50
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 24, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 51
+    ack (nb=2), 54979910108160-54979910108165, 54979910108158, 54979910108139-54979910108151
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 52
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 2877881534390732038
+    new_token[8]: 0x95228c0501110801
+    Unknown frame, type: 547463843 (0xa0a1a2a3a4a5a6a7... + 8 bytes)
+Log fuzz test #99, packet 53
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 1720301761719040169
+    Malformed application_close, requires 1720301761719040180 bytes out of 47
+Log fuzz test #99, packet 54
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    Unknown frame, type: 836268153 (0xb1d870799e2ea4a5... + 10 bytes)
+Log fuzz test #99, packet 55
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: t...
+    stream_data_blocked: 34.
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 56
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 20, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 57
+    Unknown frame, type: 234724766 (0x8dfd9d9ef7174fa1... + 56 bytes)
+Log fuzz test #99, packet 58
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 489916863 (0x9d3389bff8ae0801... + 16 bytes)
+Log fuzz test #99, packet 59
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 28
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 60
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01020304050607cc
+    retire_connection_id[11]
+    Unknown frame, type: 12479 (0x70bf387fcc01a0a1... + 14 bytes)
+Log fuzz test #99, packet 61
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 2385220060798256390
+    new_token[8]: 0x95228c0501110801
+    Unknown frame, type: 547463843 (0xa0a1a2a3a4a5a6a7... + 8 bytes)
+Log fuzz test #99, packet 62
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    Unknown frame, type: 357319001 (0x954c415901001a01... + 31 bytes)
+Log fuzz test #99, packet 63
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a69b...
+Log fuzz test #99, packet 64
+    ack (nb=2), 154652574720-154652574725, 154652574718, 154652574699-154652574711
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 65
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328711495-4328719351
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 66
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 354574597 (0x9522610501110801... + 16 bytes)
+Log fuzz test #99, packet 67
+    ack (nb=12690), 3552050937-4328719365, 3552049878-3552050906, 3552036459-3552049872, 3197437680-3552023285, 3197437677, 3197437648-3197437649, 3197437641-3197437644, 3197437630-3197437635, 3197437615-3197437622, 2842852000-3197437605, 2842851980-2842851997, 2842851969-2842851970, 1680552245-2295388124, 248764377-998344328
+        Malformed ACK GAP, 12676 blocks remain.
+Log fuzz test #99, packet 68
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 12536, offset 0, length 15, fin = 0: 5cc54d4be9a6a7a8...
+Log fuzz test #99, packet 69
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: ts..
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 70
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 226602508, reason: 68035769583208597
+    Unknown frame, type: 34 (0x228c0501110801a0... + 15 bytes)
+Log fuzz test #99, packet 71
+    ack (nb=2), 3401204457-4328719365, 2342321887-2342321891, 2342295300-2342308472
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 72
+    ack (nb=5330), 4328719373-4328719378, 4328719371, 4328719352-4328719364, 4328718293-4328719321, 4328704874-4328718287, 3974106095-4328691700, 3974106092, 3974106063-3974106064, 3974106056-3974106059, 3974106045-3974106050, 3974106030-3974106037, 3619520415-3974106020, 3619520395-3619520412, 3619520384-3619520385, 2457220660-3072056539, 1025432792-1775012743
+        Malformed ACK GAP, 5314 blocks remain.
+Log fuzz test #99, packet 73
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 47
+Log fuzz test #99, packet 74
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 012d70b7e44b77d6
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 75
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 51
+    Unknown frame, type: 10633 (0x698979a1a2a3a4a5... + 10 bytes)
+Log fuzz test #99, packet 76
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: .Z..
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 77
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0021, Reason length 1421287439908246818
+    Malformed application_close, requires 1421287439908246828 bytes out of 47
+Log fuzz test #99, packet 78
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2bb05ee2151...
+Log fuzz test #99, packet 79
+    ack (nb=2), 208738302069784-208738302069789, 208738302069782, 208738302069763-208738302069775
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 80
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 927154212
+    Malformed application_close, requires 927154219 bytes out of 47
+Log fuzz test #99, packet 81
+    ack (nb=2), 1473393964060181504-1473393964060181509, 1473393964060181502, 1473393964060181483-1473393964060181495
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 82
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    immediate_ack
+    Unknown frame, type: 237627557087281568 (0xc34c3901110801a0... + 15 bytes)
+Log fuzz test #99, packet 83
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 3615996820780441793, reason: 6
+    new_token[8]: 0x95228c0501110801
+    Unknown frame, type: 547463843 (0xa0a1a2a3a4a5a6a7... + 8 bytes)
+Log fuzz test #99, packet 84
+    ack (nb=0), 4328719363-4328719365
+    stop_sending: Stream 0 (0x0), Error 0x0.
+    stop_sending: Stream 12 (0xc), Error 0x1d.
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 85
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 86
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    Unknown frame, type: 358963512 (0x9565593801110801... + 16 bytes)
+Log fuzz test #99, packet 87
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    Unknown frame, type: 3641546602943063205 (0xf2895f577573a4a5... + 10 bytes)
+Log fuzz test #99, packet 88
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 01020304ae088308
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 89
+    ack (nb=2), 4328719360-4328719365
+        ack gap error: largest=4328719365, range=6, gap=2773907581626942469
+Log fuzz test #99, packet 90
+    ack (nb=933887232), 4328719365, 4328719346-4328719358, 4328718287-4328719315, 4328704868-4328718281, 3974106089-4328691694, 3974106086, 3974106057-3974106058, 3974106050-3974106053, 3974106039-3974106044, 3974106024-3974106031, 3619520409-3974106014, 3619520389-3619520406, 3619520378-3619520379, 2457220654-3072056533, 1025432786-1775012737
+        Malformed ACK GAP, 933887217 blocks remain.
+Log fuzz test #99, packet 91
+    ack (nb=3), 4328719363-4328719365, 4328719356, 4328719349-4328719354, 4328719306-4328719335
+    Unknown frame, type: 1028 (0x4404047465737495... + 38 bytes)
+Log fuzz test #99, packet 92
+    ack (nb=29), 4328718568-4328719596, 4328705149-4328718562, 3974106370-4328691975, 3974106367, 3974106338-3974106339, 3974106331-3974106334, 3974106320-3974106325, 3974106305-3974106312, 3619520690-3974106295, 3619520670-3619520687, 3619520659-3619520660, 2457220935-3072056814, 1025433067-1775013018
+        Malformed ACK GAP, 16 blocks remain.
+Log fuzz test #99, packet 93
+    ack (nb=2), 4328719360-4328719365, 3818899131-3818899142, 3818898097-3818898101
+    Unknown frame, type: 13413 (0x7465737495228c05... + 35 bytes)
+Log fuzz test #99, packet 94
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 18, offset 0, length 16, fin = 0: cba14ba3a4a5a6a7...
+Log fuzz test #99, packet 95
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 010203043d72f49f
+    Unknown frame, type: 7970 (0x5f228c0501110801... + 16 bytes)
+Log fuzz test #99, packet 96
+    ack (nb=2), 485519946676477825-485519946676477830, 485519946676477823, 485519946676477804-485519946676477816
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 97
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 010203045b609dd0
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 98
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060708
+    path_abandon, path_id: 1, reason: 17
+    stream 1, offset 0, length 16, fin = 0: a0a1a2a3a4a5a6a7...
+Log fuzz test #99, packet 99
+    ack (nb=2), 4328719360-4328719365, 4328719358, 4328719339-4328719351
+    application_close, Error 0x0404, Reason length 4
+        Reason: test
+    path_abandon, path_id: 1, reason: 0
+    path_challenge: 0102030405060752
+    Unknown frame, type: 955480024076584961 (0xcd428c0501110801... + 16 bytes)

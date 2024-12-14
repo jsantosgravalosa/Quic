@@ -1,0 +1,130 @@
+e88088ea50000000: Receiving 1252 bytes from 10.0.0.2:1234 at T=0.000000 (2af9)
+e88088ea50000000: Receiving packet type: 2 (initial), S0, Q1, Version 50435130,
+e88088ea50000000:     <e88088ea50000000>, <980b78a8a6339f87>, Seq: 0, pl: 1226
+e88088ea50000000:     Token length: 0
+e88088ea50000000:     Decrypted 1206 bytes
+e88088ea50000000:     crypto_hs, offset 0, length 285: 010001190303eaf4...
+e88088ea50000000:     padding, 917 bytes
+
+e88088ea50000000: ALPN[0] matches default alpn (picoquic-test)
+e88088ea50000000: Received ALPN list (1): picoquic-test
+e88088ea50000000: Received transport parameter TLS extension (73 bytes):
+e88088ea50000000:     Extension list (73 bytes):
+e88088ea50000000:         Extension type: 5 (max_stream_data_bidi_local), length 4, 80200000
+e88088ea50000000:         Extension type: 4 (initial_max_data), length 4, 80100000
+e88088ea50000000:         Extension type: 8 (max_streams_bidi), length 2, 4200
+e88088ea50000000:         Extension type: 1 (idle_timeout), length 4, 80007530
+e88088ea50000000:         Extension type: 3 (max_packet_size), length 2, 45a0
+e88088ea50000000:         Extension type: 9 (max_streams_uni), length 2, 4200
+e88088ea50000000:         Extension type: 6 (max_stream_data_bidi_remote), length 4, 80010063
+e88088ea50000000:         Extension type: 7 (max_stream_data_uni), length 4, 8000ffff
+e88088ea50000000:         Extension type: 14 (active_connection_id_limit), length 1, 08
+e88088ea50000000:         Extension type: 11 (max_ack_delay), length 1, 0a
+e88088ea50000000:         Extension type: 15 (hcid), length 8, 980b78a8a6339f87
+e88088ea50000000:         Extension type: 4183 (enable_loss_bit), length 1, 01
+e88088ea50000000:         Extension type: 4278509083 (min_ack_delay), length 2, 43e8
+e88088ea50000000: Sending transport parameter TLS extension (101 bytes):
+e88088ea50000000:     Extension list (101 bytes):
+e88088ea50000000:         Extension type: 5 (max_stream_data_bidi_local), length 4, 80200000
+e88088ea50000000:         Extension type: 4 (initial_max_data), length 4, 80100000
+e88088ea50000000:         Extension type: 8 (max_streams_bidi), length 2, 4200
+e88088ea50000000:         Extension type: 1 (idle_timeout), length 4, 80007530
+e88088ea50000000:         Extension type: 3 (max_packet_size), length 2, 45a0
+e88088ea50000000:         Extension type: 9 (max_streams_uni), length 2, 4200
+e88088ea50000000:         Extension type: 6 (max_stream_data_bidi_remote), length 4, 80010063
+e88088ea50000000:         Extension type: 7 (max_stream_data_uni), length 4, 8000ffff
+e88088ea50000000:         Extension type: 14 (active_connection_id_limit), length 1, 08
+e88088ea50000000:         Extension type: 11 (max_ack_delay), length 1, 0a
+e88088ea50000000:         Extension type: 15 (hcid), length 8, 2b2bcefab536c4a6
+e88088ea50000000:         Extension type: 0 (ocid), length 8, e88088ea50000000
+e88088ea50000000:         Extension type: 2 (stateless_reset_token), length 16, 6ffb9359e1c36665b519cd9da5737205
+e88088ea50000000:         Extension type: 4183 (enable_loss_bit), length 1, 01
+e88088ea50000000:         Extension type: 4278509083 (min_ack_delay), length 2, 43e8
+e88088ea50000000: Sending packet type: 2 (initial), S0, Q1, Version 50435130,
+e88088ea50000000:     <980b78a8a6339f87>, <2b2bcefab536c4a6>, Seq: 0, pl: 152
+e88088ea50000000:     Token length: 0
+e88088ea50000000:     Prepared 132 bytes
+e88088ea50000000:     ack (nb=0), 0
+e88088ea50000000:     crypto_hs, offset 0, length 123: 020000770303941c...
+
+e88088ea50000000: Sending packet type: 4 (handshake), S0, Q1, Version 50435130,
+e88088ea50000000:     <980b78a8a6339f87>, <2b2bcefab536c4a6>, Seq: 0, pl: 1049
+e88088ea50000000:     Prepared 1029 bytes
+e88088ea50000000:     crypto_hs, offset 0, length 1025: 0800008300810000...
+
+e88088ea50000000: Sending 1252 bytes to 10.0.0.2:1234 at T=0.000000 (2af9)
+e88088ea50000000: Sending packet type: 4 (handshake), S0, Q1, Version 50435130,
+e88088ea50000000:     <980b78a8a6339f87>, <2b2bcefab536c4a6>, Seq: 1, pl: 263
+e88088ea50000000:     Prepared 243 bytes
+e88088ea50000000:     crypto_hs, offset 1025, length 238: 61eab884f1f0900f...
+
+e88088ea50000000: Sending packet type: 6 (1rtt protected), S0, Q1,
+e88088ea50000000:     <980b78a8a6339f87>, Seq: 0 (0), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Prepared 196 bytes
+e88088ea50000000:     retire_connection_id[1]: 0x65e121c330a35315, cc3558d9a075dbe32fa6e8a3a929bf21
+e88088ea50000000:     retire_connection_id[2]: 0x4eb828934b112ddf, fc81a4c06767e20713c1d2757ce22720
+e88088ea50000000:     retire_connection_id[3]: 0x77cd68faad5b5832, 1d3ba5c0d55baf4dd7a1b67f0c89d488
+e88088ea50000000:     retire_connection_id[4]: 0x1810c3a1b91b1351, 7f3154d0bb010b53414fbbfe42dea480
+e88088ea50000000:     retire_connection_id[5]: 0x78d6ab7be9695621, 5660598856330c2a16d4bff3c3f23edd
+e88088ea50000000:     retire_connection_id[6]: 0xbff34f80fb17993b, 7cddd4ee4c9259defb27a13860ab5374
+e88088ea50000000:     retire_connection_id[7]: 0xc0df4de220c2383a, d9a6e1fe600f6c1008a08f907d41e960
+
+e88088ea50000000: T= 0.000000, cwin: 15360,flight: 1762,nb_ret: 0,rtt_min: 0,rtt: 250000,rtt_var: 0,max_ack_delay: 0,state: 11
+e88088ea50000000: Sending 510 bytes to 10.0.0.2:1234 at T=0.000000 (2af9)
+e88088ea50000000: Sending packet type: 6 (1rtt protected), S0, Q1,
+e88088ea50000000:     <980b78a8a6339f87>, Seq: 1 (1), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Prepared 1414 bytes
+e88088ea50000000:     ping, 1 bytes
+e88088ea50000000:     padding, 1413 bytes
+
+e88088ea50000000: T= 0.000000, cwin: 15360,flight: 3202,nb_ret: 0,rtt_min: 0,rtt: 250000,rtt_var: 0,max_ack_delay: 0,state: 11
+e88088ea50000000: Sending 1440 bytes to 10.0.0.2:1234 at T=0.000000 (2af9)
+e88088ea50000000: Receiving 50 bytes from 10.0.0.2:1234 at T=0.021040 (7d29)
+e88088ea50000000: Receiving packet type: 4 (handshake), S0, Q1, Version 50435130,
+e88088ea50000000:     <2b2bcefab536c4a6>, <980b78a8a6339f87>, Seq: 0, pl: 25
+e88088ea50000000:     Decrypted 5 bytes
+e88088ea50000000:     ack (nb=0), 0
+
+e88088ea50000000: Receiving 311 bytes from 10.0.0.2:1234 at T=0.021656 (7f91)
+e88088ea50000000: Receiving packet type: 4 (handshake), S0, Q1, Version 50435130,
+e88088ea50000000:     <2b2bcefab536c4a6>, <980b78a8a6339f87>, Seq: 1, pl: 64
+e88088ea50000000:     Decrypted 44 bytes
+e88088ea50000000:     ack (nb=0), 0-1
+e88088ea50000000:     crypto_hs, offset 0, length 36: 14000020041934d7...
+
+e88088ea50000000: Receiving packet type: 6 (1rtt protected), S1, Q1,
+e88088ea50000000:     <2b2bcefab536c4a6>, Seq: 0 (0), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Decrypted 196 bytes
+e88088ea50000000:     retire_connection_id[1]: 0x56a227095648e6f7, b37c8bba308159c2cf6538f61b3af997
+e88088ea50000000:     retire_connection_id[2]: 0x68af4dc335e4305e, 525cdade71c86187ec6094c548d22683
+e88088ea50000000:     retire_connection_id[3]: 0x22453553fa1a2818, d2c018360c10a21561e1c85c5b05e284
+e88088ea50000000:     retire_connection_id[4]: 0x5b05a039cfe129d5, eae98e127e43aece4b7744de0e9c55ad
+e88088ea50000000:     retire_connection_id[5]: 0xf5c767a0763fc6f6, 9c22ac597713a5be3685d1d73ba39216
+e88088ea50000000:     retire_connection_id[6]: 0x59306472e5c0e488, d4c07ad6e8d83ad7d561d23f5cdcc093
+e88088ea50000000:     retire_connection_id[7]: 0xb6ad9960dc8a3dfc, 68f9510f1a91c32c5890e0fb361bb364
+
+e88088ea50000000: T= 0.021656, cwin: 15360,flight: 1662,nb_ret: 0,rtt_min: 21040,rtt: 21117,rtt_var: 8044,max_ack_delay: 0,state: 14
+e88088ea50000000: Sending packet type: 6 (1rtt protected), S1, Q1,
+e88088ea50000000:     <980b78a8a6339f87>, Seq: 2 (2), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Prepared 29 bytes
+e88088ea50000000:     ack_frequency: S=0, P=2, uS=5260, Reordering threshold: 0
+e88088ea50000000:     handshake_done
+e88088ea50000000:     padding, 21 bytes
+
+e88088ea50000000: T= 0.021656, cwin: 15360,flight: 1717,nb_ret: 0,rtt_min: 21040,rtt: 21117,rtt_var: 8044,max_ack_delay: 0,state: 14
+e88088ea50000000: Sending 55 bytes to 10.0.0.2:1234 at T=0.021656 (7f91)
+e88088ea50000000: Receiving 52 bytes from 10.0.0.2:1234 at T=0.021697 (7fba)
+e88088ea50000000: Receiving packet type: 6 (1rtt protected), S1, Q1,
+e88088ea50000000:     <2b2bcefab536c4a6>, Seq: 1 (1), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Decrypted 26 bytes
+e88088ea50000000:     ack (nb=0), 0
+e88088ea50000000:     connection_close, Error 0x0001, Reason length 17
+e88088ea50000000:         Reason: error reason test
+
+e88088ea50000000: T= 0.021697, cwin: 15360,flight: 1495,nb_ret: 0,rtt_min: 21040,rtt: 21189,rtt_var: 6178,max_ack_delay: 0,state: 16
+e88088ea50000000: Sending packet type: 6 (1rtt protected), S1, Q1,
+e88088ea50000000:     <980b78a8a6339f87>, Seq: 3 (3), Phi: 0, Q(0), L(0),
+e88088ea50000000:     Prepared 4 bytes
+e88088ea50000000:     connection_close, Error 0x0000, Reason length 0
+
+e88088ea50000000: Sending 30 bytes to 10.0.0.2:1234 at T=0.021697 (7fba)
